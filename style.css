@@ -4,8 +4,9 @@ body{
 }
 h1{font-size: 50px;}
 .orange{color: orange;}
+h2{font-size: 40px;}
 
-section{display: flex;
+.flexible-container{display: flex;
 margin-bottom: 100px;}
 
 .half-width{width:50%;
@@ -24,3 +25,20 @@ background-repeat: no-repeat;}
     background-repeat: no-repeat;
     background-position-x: right;
 }
+.experience-item{width: 40%;margin-left: 5%;margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    padding-left: 20px;
+    border-radius: 5%;
+    border-left: 7px solid;
+    border-image:linear-gradient(salmon,red);
+    border-image-slice: 1;
+}
+.experience-area{ background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{text-align: center;}
